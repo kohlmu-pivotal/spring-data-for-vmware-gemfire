@@ -79,6 +79,8 @@ fun setGemFirePublishingCredentials(
   if (mavenArtifactRepository.url.toString().startsWith("http") || mavenArtifactRepository.url.toString()
       .startsWith("sftp")
   ) {
+
+    //Made some changes...
     // Username / password credentials are only supported for http, https, and sftp repos.
     // See the Gradle documentation on Repository Types for more information.
     mavenArtifactRepository.credentials {
