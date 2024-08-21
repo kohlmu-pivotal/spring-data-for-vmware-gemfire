@@ -18,9 +18,9 @@ dependencies {
 
 }
 
-//gradlePlugin {
-//  plugins.register("publishing-artifactory") {
-//    id = "publishing-artifactory"
-//    implementationClass = "com.vmware.gemfire.gradle.ArtifactoryPlugin"
-//  }
-//}
+gradlePlugin {
+  plugins.register("publishing-artifactory") {
+    id = "publishing-artifactory"
+    implementationClass = "com.vmware.gemfire.gradle.ArtifactoryPlugin"
+  }
+}
